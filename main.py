@@ -4,7 +4,7 @@ def sum_of_products(list1, list2):
 
 
 if __name__ == '__main__':
-   a=([int(input()),int(input()),int(input())])
-   b=([int(input()),int(input()),int(input())])
+   a=([int(input("Input an interger here:")),int(input("Input an interger here:")),int(input("Input an interger here:"))])
+   b=([int(input("Input an interger here:")),int(input("Input an interger here:")),int(input("Input an interger here:"))])
    x= sum_of_products(a,b)
-   print(x)
+   print("The answer is:", x)
